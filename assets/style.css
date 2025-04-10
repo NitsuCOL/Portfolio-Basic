@@ -19,9 +19,10 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px;
+    padding: 10px 10px;
     color: #9b03f3;
     height: 50px;
+    border-bottom: 1px solid #9b03f3;
 }
 
 .nav_container p{
@@ -65,12 +66,62 @@ nav{
     text-decoration: none;
 }
 
+/*Estilos de la seccion de Biografia*/
+.bio_container{
+    background-color: #000;
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100dvh;
+}
+
+.text_bio_container{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text_bio_container p{
+    width: 75%;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.img_bio_container{
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    padding-bottom: 10px;
+}
+
+.img_bio_container img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.social_media_bio_container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
 /*Estilos para pantallas grandes*/
 @media(min-width: 768px){
     .hamburger{
         display: none;
     }
 
+    /*Estilos del navbar*/
     .panel{
         all: unset;
         /*Estilos de las pantallas grandes del navbar*/
@@ -97,4 +148,6 @@ nav{
         border-bottom: 1px solid #9b03f3;
         color: #9b03f3;
     }
+
+    /*Estilos de la seccion de Biografia*/
 }
