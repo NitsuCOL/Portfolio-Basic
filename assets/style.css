@@ -44,12 +44,19 @@ nav{
     transform: translateX(2000px);
     font-weight: 600;
     font-size: 20px;
+    transition: .3s ease-in-out;
 }
 
 .panel.is-active{
     transform: translateX(0);
     -webkit-backdrop-filter: blur(13px);
     backdrop-filter: blur(13px);
+}
+
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
+    background-color: #9b03f3 !important;
 }
 
 .list_nav_container a{
