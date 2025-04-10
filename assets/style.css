@@ -8,6 +8,7 @@
     font-family: "Montserrat", sans-serif;
 }
 
+/*Estilos de la lista de navegacion*/
 nav{
     width: 100%;
 }
@@ -20,24 +21,44 @@ nav{
     align-items: center;
     padding: 10px 30px;
     color: #9b03f3;
+    height: 50px;
 }
 
 .nav_container p{
     font-weight: 600;
 }
 
-/*Estilos de la lista de navegacion*/
-
-.list_nav_container ul{
+.panel{
+    background-color: rgba(0, 0, 0, 0.881);
     list-style: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     height: 100dvh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(2000px);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.panel.is-active{
+    transform: translateX(0);
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
 }
 
 .list_nav_container a{
     text-decoration: none;
+}
+
+/*Estilos para pantallas grandes*/
+@media(min-width: 768px){
+    .hamburger{
+        display: none;
+    }
 }
