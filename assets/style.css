@@ -67,7 +67,7 @@ nav{
 }
 
 /*Estilos de la seccion de Inicio*/
-.bio_container{
+.ini_container{
     width: auto;
     display: flex;
     flex-direction: column-reverse;
@@ -77,20 +77,23 @@ nav{
     height: 100dvh;
 }
 
-.text_bio_container{
+.text_ini_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+.text_ini_container h1{
+    font-size: 30px;
+}
 
-.text_bio_container p{
+.text_ini_container p{
     width: 75%;
     padding: 10px 0;
     font-size: 14px;
 }
 
-.img_bio_container{
+.img_ini_container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,18 +101,44 @@ nav{
     padding-bottom: 10px;
 }
 
-.img_bio_container img{
+.img_ini_container img{
     width: 40%;
     border-radius: 50%;
 }
 
-.social_media_bio_container{
+.social_media_ini_container{
     width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
     padding: 10px 0;
+}
+
+/*Estilos de la seccion de Biografia*/
+.bio_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    height: 100dvh;
+    gap: 10px;
+}
+
+.bio_container h2{
+    font-size: 28px;
+}
+
+.bio_container img{
+    width: 50%;
+    border-radius: 20px;
+}
+
+.bio_container p{
+    width: 90%;
+    font-size: 14px;
+    text-align: center;
 }
 
 /*Estilos para pantallas grandes*/
@@ -147,7 +176,7 @@ nav{
     }
 
     /*Estilos de la seccion de Inicio en pantallas grandes*/
-    .bio_container{
+    .ini_container{
         all: unset;
         color: #fff;
         width: 100%;
@@ -157,7 +186,7 @@ nav{
         align-items: center;
     }
 
-    .text_bio_container{
+    .text_ini_container{
         all: unset;
         /* background-color: red; */
         display: flex;
@@ -167,16 +196,16 @@ nav{
         width: 50%;
     }
 
-    .text_bio_container h1{
+    .text_ini_container h1{
         font-size: 35px;
     }
 
-    .text_bio_container p{
+    .text_ini_container p{
         width: 80%;
         padding: 10px 0;
     }
 
-    .img_bio_container{
+    .img_ini_container{
         all: unset;
         display: flex;
         justify-content: center;
@@ -186,12 +215,12 @@ nav{
         margin-left: -12%;
     }
 
-    .img_bio_container img{
+    .img_ini_container img{
         width: 50%;
         border-radius: 50%;
     }
 
-    .social_media_bio_container{
+    .social_media_ini_container{
         display: flex;
         justify-content: center;
         align-items: center;
