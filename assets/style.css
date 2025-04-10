@@ -26,6 +26,8 @@ nav{
 
 .nav_container p{
     font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .panel{
@@ -67,5 +69,32 @@ nav{
 @media(min-width: 768px){
     .hamburger{
         display: none;
+    }
+
+    .panel{
+        all: unset;
+        /*Estilos de las pantallas grandes del navbar*/
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        margin-right: 20px;
+        padding: 10px 0;
+    }
+
+    .menu_link{
+        all: unset;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    .menu_link:hover{
+        transform: scale(1.2);
+        font-size: 15px;
+        border-bottom: 1px solid #9b03f3;
+        color: #9b03f3;
     }
 }
