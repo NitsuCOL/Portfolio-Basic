@@ -1,0 +1,43 @@
+/*Fuentes: Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav_container{
+    background-color: #000;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    color: #9b03f3;
+}
+
+.nav_container p{
+    font-weight: 600;
+}
+
+/*Estilos de la lista de navegacion*/
+
+.list_nav_container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100dvh;
+}
+
+.list_nav_container a{
+    text-decoration: none;
+}
