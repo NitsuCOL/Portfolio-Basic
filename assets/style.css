@@ -256,6 +256,8 @@ nav{
         width: 25%;
         height: 60%;
         margin-left: -50%;
+        border-radius: 20px;
+        overflow: hidden;
     }
 
     .bio_container p{
