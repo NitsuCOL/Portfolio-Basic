@@ -6,6 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
+    background-color: #000;
 }
 
 /*Estilos de la lista de navegacion*/
@@ -14,7 +15,6 @@ nav{
 }
 
 .nav_container{
-    background-color: #000;
     width: auto;
     display: flex;
     justify-content: space-between;
@@ -66,9 +66,8 @@ nav{
     text-decoration: none;
 }
 
-/*Estilos de la seccion de Biografia*/
+/*Estilos de la seccion de Inicio*/
 .bio_container{
-    background-color: #000;
     width: auto;
     display: flex;
     flex-direction: column-reverse;
@@ -79,7 +78,6 @@ nav{
 }
 
 .text_bio_container{
-    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +91,6 @@ nav{
 }
 
 .img_bio_container{
-    /* background-color: purple; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,5 +146,56 @@ nav{
         color: #9b03f3;
     }
 
-    /*Estilos de la seccion de Biografia*/
+    /*Estilos de la seccion de Inicio en pantallas grandes*/
+    .bio_container{
+        all: unset;
+        color: #fff;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text_bio_container{
+        all: unset;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .text_bio_container h1{
+        font-size: 35px;
+    }
+
+    .text_bio_container p{
+        width: 80%;
+        padding: 10px 0;
+    }
+
+    .img_bio_container{
+        all: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin-top: -5%;
+        margin-left: -12%;
+    }
+
+    .img_bio_container img{
+        width: 50%;
+        border-radius: 50%;
+    }
+
+    .social_media_bio_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding: 10px 0;
+    }
 }
