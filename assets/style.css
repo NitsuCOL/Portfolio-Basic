@@ -12,6 +12,7 @@
 /*Estilos de la lista de navegacion*/
 nav{
     width: 100%;
+    position: fixed;
 }
 
 .nav_container{
@@ -50,6 +51,10 @@ nav{
     transition: .3s ease-in-out;
 }
 
+.panel li{
+    background-color: transparent;
+}
+
 .panel.is-active{
     transform: translateX(0);
     -webkit-backdrop-filter: blur(13px);
@@ -62,8 +67,9 @@ nav{
     background-color: #9b03f3 !important;
 }
 
-.list_nav_container a{
+.menu_link{
     text-decoration: none;
+    background-color: transparent;
 }
 
 /*Estilos de la seccion de Inicio*/
@@ -226,5 +232,37 @@ nav{
         align-items: center;
         gap: 30px;
         padding: 10px 0;
+    }
+
+    /*Estilos de la seccion Biografia*/
+    .bio_container{
+        all: unset;
+        height: 100vh;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bio_container h2{
+        margin-right: -37%;
+        margin-bottom: -10%;
+        font-size: 30px;
+    }
+
+    .bio_container img{
+        all: unset;
+        width: 25%;
+        height: 60%;
+        margin-left: -50%;
+    }
+
+    .bio_container p{
+        width: 40%;
+        margin-right: -35%;
+        margin-top: -25%;
+        font-size: 16px;
+        text-align: center;
     }
 }
