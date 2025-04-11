@@ -252,6 +252,50 @@ input:focus, textarea:focus{
     outline: none;
 }
 
+/*Estilos del footer*/
+footer{
+    width: 100%;
+    color: #fff;
+    border-top: 1px solid #9b03f3;
+}
+
+.footer_container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.footer_container p{
+    font-size: 13px;
+    padding: 20px 10px;
+    text-align: center;
+    width: auto;
+}
+
+.contacto_footer{
+    padding: 0 10px;
+    width: auto;
+}
+
+.contacto_footer h3{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contacto_footer li{
+    font-size: 13px;
+}
+
+.contacto_footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
 /*Estilos para pantallas grandes*/
 @media(min-width: 768px){
     .hamburger{
@@ -385,4 +429,6 @@ input:focus, textarea:focus{
     .contact_container button{
         width: 40%;
     }
+
+    
 }
