@@ -245,6 +245,11 @@ nav{
     border-radius: 20px;
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus{
+    outline: none;
 }
 
 /*Estilos para pantallas grandes*/
@@ -371,5 +376,13 @@ nav{
     /*Estilos de la seccion de habilidades*/
     .list_skills_container ul{
         gap: 20px 0;
+    }
+
+    /*Estilos de la seccion de contacto*/
+    .contact_container input, .contact_container textarea{
+        width: 50%;
+    }
+    .contact_container button{
+        width: 40%;
     }
 }
