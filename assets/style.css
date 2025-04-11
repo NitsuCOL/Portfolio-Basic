@@ -147,6 +147,57 @@ nav{
     text-align: center;
 }
 
+/*Estilos de la seccion de skills*/
+.skills_container{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    gap: 10px;
+}
+
+.skills_container h2{
+    font-size: 28px;
+}
+.skills_container p{
+    width: 90%;
+    text-align: center;
+}
+
+.bento_skills{
+    width: 90%;
+    border: 1px solid #9b03f3;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.list_skills_container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_skills_container ul{
+    list-style: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.list_skills_container li{
+    overflow: hidden;
+}
+
+.icon_skills{
+    width: 40px;
+}
+
 /*Estilos para pantallas grandes*/
 @media(min-width: 768px){
     .hamburger{
