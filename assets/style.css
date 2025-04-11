@@ -210,13 +210,16 @@ nav{
 }
 
 .contact_container form{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
     color: #fff;
+    padding: 30px 0;
+    box-shadow: 0 0 10px #9b03f3d0;
+    border-radius: 10px;
 }
 
 .contact_container input, .contact_container textarea{
@@ -429,6 +432,10 @@ footer{
     }
     .contact_container button{
         width: 40%;
+    }
+
+    .contact_container form{
+        width: 50%;
     }
 
     /*Estilos del footer*/
