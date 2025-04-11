@@ -318,4 +318,9 @@ nav{
         font-size: 16px;
         text-align: center;
     }
+
+    /*Estilos de la seccion de habilidades*/
+    .list_skills_container ul{
+        gap: 20px 0;
+    }
 }
